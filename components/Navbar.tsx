@@ -20,10 +20,12 @@ const Navbar = () => {
 
     if (searchValue) {
       router.push(`/search/${searchValue}`);
-    }
+    } /* you */
     /* setSearchValue(''); */
   };
-
+  {
+    ('');
+  }
   return (
     <div className='w-full flex justify-between items-center border-b-2 order-gray-200 py-2 px-4'>
       <Link href='/'>
